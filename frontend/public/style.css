@@ -1,0 +1,65 @@
+/* General body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Main container for page content */
+h1 {
+    text-align: center;
+    color: #4a90e2;
+    margin-top: 240px;
+}
+
+/* Style for the form container */
+form {
+    width: auto;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Labels and inputs in the form */
+label {
+    font-size: 25px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+input[type="file"] {
+    width: auto;
+    padding: 10px;
+    margin-bottom: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+button {
+    width: auto;
+    padding: 10px;
+    background-color: #4a90e2;
+    color: white;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #357ab7;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    form {
+        width: auto;
+    }
+}

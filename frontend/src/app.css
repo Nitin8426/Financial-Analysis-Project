@@ -1,0 +1,25 @@
+.App {
+    text-align: center;
+  }
+  
+  .error {
+    color: red;
+  }
+  
+  .file-upload {
+    margin: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
